@@ -20,7 +20,7 @@ namespace GradeBook
             
         }
 
-        public void ShowStats()
+        public Stats ShowStats()
         {
             var result = 0.0;
             var highGrade = double.MinValue;
