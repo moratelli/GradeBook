@@ -31,8 +31,6 @@ namespace GradeBook.Tests
         {
             var book = new Book("");
             book.AddGrade(90.1);
-            book.AddGrade(-1);
-            book.AddGrade(100.1);
 
             var result = book.GetStats();
 
